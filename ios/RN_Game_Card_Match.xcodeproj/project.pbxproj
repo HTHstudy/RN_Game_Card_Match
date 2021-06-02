@@ -11,6 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		22824FF72665C1E60032BF3F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22824FF62665C1E60032BF3F /* File.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		83928602A925AE2EB10F13D7 /* libPods-RN_Game_Card_Match.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6746D3F30BFE4FE4F29DAE4 /* libPods-RN_Game_Card_Match.a */; };
 		ECCD5D898DC0D7A0FA3B2A67 /* libPods-RN_Game_Card_Match-RN_Game_Card_MatchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFBB760E3DE07233ED0484 /* libPods-RN_Game_Card_Match-RN_Game_Card_MatchTests.a */; };
@@ -37,6 +38,8 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RN_Game_Card_Match/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RN_Game_Card_Match/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RN_Game_Card_Match/main.m; sourceTree = "<group>"; };
+		22824FF52665C1E50032BF3F /* RN_Game_Card_Match-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RN_Game_Card_Match-Bridging-Header.h"; sourceTree = "<group>"; };
+		22824FF62665C1E60032BF3F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		4538ED12355FE0AB60A2864D /* Pods-RN_Game_Card_Match-RN_Game_Card_MatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_Game_Card_Match-RN_Game_Card_MatchTests.debug.xcconfig"; path = "Target Support Files/Pods-RN_Game_Card_Match-RN_Game_Card_MatchTests/Pods-RN_Game_Card_Match-RN_Game_Card_MatchTests.debug.xcconfig"; sourceTree = "<group>"; };
 		62A1DAE6AFE2693DF44E7BC6 /* Pods-RN_Game_Card_Match.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_Game_Card_Match.debug.xcconfig"; path = "Target Support Files/Pods-RN_Game_Card_Match/Pods-RN_Game_Card_Match.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RN_Game_Card_Match/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -114,7 +117,6 @@
 				4538ED12355FE0AB60A2864D /* Pods-RN_Game_Card_Match-RN_Game_Card_MatchTests.debug.xcconfig */,
 				ACEA4E98A98C9219527AE2AB /* Pods-RN_Game_Card_Match-RN_Game_Card_MatchTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -128,12 +130,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				22824FF62665C1E60032BF3F /* File.swift */,
 				13B07FAE1A68108700A75B9A /* RN_Game_Card_Match */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RN_Game_Card_MatchTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				53AF77457F7543F8CA41998A /* Pods */,
+				22824FF52665C1E50032BF3F /* RN_Game_Card_Match-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -208,7 +212,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -412,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				22824FF72665C1E60032BF3F /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4538ED12355FE0AB60A2864D /* Pods-RN_Game_Card_Match-RN_Game_Card_MatchTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -458,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ACEA4E98A98C9219527AE2AB /* Pods-RN_Game_Card_Match-RN_Game_Card_MatchTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = RN_Game_Card_MatchTests/Info.plist;
@@ -482,6 +489,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 62A1DAE6AFE2693DF44E7BC6 /* Pods-RN_Game_Card_Match.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -498,6 +506,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RN_Game_Card_Match;
+				SWIFT_OBJC_BRIDGING_HEADER = "RN_Game_Card_Match-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -508,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0AD72772F8F2EAFC2C757F28 /* Pods-RN_Game_Card_Match.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -523,6 +533,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RN_Game_Card_Match;
+				SWIFT_OBJC_BRIDGING_HEADER = "RN_Game_Card_Match-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

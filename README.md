@@ -12,6 +12,10 @@ https://youtu.be/3H5pPNH135g
 - [x] 오픈된 2장의 카드의 그림이 다를 경우 카드 close
 - [x] 오픈된 2장의 카드의 그림이 같을 경우 카드 오픈된 상태로 유지
 
+### 추가 사항
+
+[lottie-react-native](https://github.com/lottie-react-native/lottie-react-native)를 이용한 간단한 달리기 게임 구현
+
 ### Quick Start
 
 ```bash

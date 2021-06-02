@@ -6,6 +6,12 @@
 
 https://youtu.be/3H5pPNH135g
 
+### 스크린샷
+
+![카드게임 스샷](https://user-images.githubusercontent.com/58502653/120166121-3bf78880-c237-11eb-983b-4c1173addc25.png)
+
+
+
 ### 구현 사항
 
 - [x] 오픈된 카드가 2장 이상일 때 다른 카드 flip 불가능

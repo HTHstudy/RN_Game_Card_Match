@@ -8,6 +8,7 @@ function GameListScreen() {
     <View>
       <Button title="카드게임" onPress={() => navigation.navigate('CardGame')} />
       <Button title="달리기게임" onPress={() => navigation.navigate('RunnerGame')} />
+      <Button title="TEST" onPress={() => navigation.navigate('Test')} />
     </View>
   );
 }
